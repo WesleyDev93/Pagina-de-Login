@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                back: {
+                    fundo:'#14162E',
+                    corMenu:'#FFFFFF',
+
+                },
+                fontFamily:{
+                     menu:['Gilroy','sans-serif'], 
+                    },
+              }
+            }
+          }
+        }
+      </script>
 
     <title>Pagina Login</title>
 </head>
-<body>
-    <head></head>
+
+
+<body class="bg-back-fundo">
+
+    <head class="">
+       <ul class="">
+        <li class="text-back-corMenu fontFamily-menu"><a href="#">Home</a></li>
+        <li class="text-back-corMenu fontFamily-menu"><a href="#">Sobre</a></li>
+        <li class="text-back-corMenu fontFamily-menu"><a href="#">Blog</a></li>
+        <li class="text-back-corMenu fontFamily-menu"><a href="#">Paginas</a></li>
+        <li class="text-back-corMenu fontFamily-menu"><a href="#">Contato</a></li>
+       </ul>
+ 
+
+    </head>
     <main>
         <section></section>
     </main>
