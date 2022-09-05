@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
     <script>
         tailwind.config = {
           theme: {
@@ -13,7 +14,7 @@
                 back: {
                     fundo:'#14162E',
                     corMenu:'#FFFFFF',
-                    botao:'#4461F2',
+                    azul:'#4461F2',
 
                 },
                 fontFamily:{
@@ -31,7 +32,7 @@
 
 <body class="bg-back-fundo">
 
-    <head class="">
+    <header class="mt-3.5">
 
     <ul class="flex justify-start justify-evenly w-2/4">
         <li class="text-back-corMenu fontFamily-menu"><a href="#">Home</a></li>
@@ -42,14 +43,22 @@
      </ul>
 
      <ul class="flex justify-end justify-evenly w-2/4 relative bottom-6 left-2/4">
-       <li class="text-back-corMenu fontFamily-menu"><a href="#">Português</a></li>
-       <li class="text-back-corMenu fontFamily-menu"><a href="#">Login</a></li>
-       <li class=" bg-white rounded-3xl w-28 h-6 text-center text-back-botao font-medium "><button>Registro</button></li>
+       <li class="text-back-corMenu fontFamily-menu" data-dropdown-toggle="dropdownId"><a href="#">Idioma🔽</a></li>
+    <div id="dropdownId">
+       <a  class="text-back-corMenu text-center" href="#">Português</a>
+       <br>
+       <a  class="text-back-corMenu text-center" href="#">Inglês</a>
+    </div>
+       <li class="text-back-azul fontFamily-menu underline "><a href="#">Login</a></li>
+       <li class=" bg-white rounded-3xl w-28 h-6 text-center text-back-azul font-medium "><button>Registro</button></li>
     </ul>
-    </head>
+    </header>
     <main>
         <section></section>
     </main>
     
+
+
+<script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>    
 </body>
 </html>
