@@ -15,7 +15,8 @@
                     fundo:'#14162E',
                     corMenu:'#FFFFFF',
                     azul:'#4461F2',
-                    amarelo:'#DDA82A'
+                    amarelo:'#DDA82A',
+                    branco:'#FFFFFF'
 
                 },
                 fontFamily:{
@@ -71,9 +72,19 @@
 
             <img class="w-[545px] h-[449px] absolute left-[660px] top-[325px]" src="./assets/img/Picture.png">
 
-            <div>
+            <form class="flex  flex-col absolute left-[1321px] top-[368px]">
+                <label for="email"></label>
+                <input class="w-[400px] rounded-xl" id="email" name="email" type="text" placeholder="Email:">
 
-            </div>
+                <label for="senha"></label>
+                <input class="w-[400px] rounded-xl mt-4" id="senha" name="senha" type="password" placeholder="******">
+
+                <p class="text-back-azul underline text-center text-right">Recuperar senha</p>
+
+                <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-lg px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-8"><a href="#">login</a></button>
+
+                <p class=" text-xs text-center mt-8">――――――――――Ou continue com――――――――――</p>
+            </form>
             
         </section>
     </main>
