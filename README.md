@@ -3,7 +3,6 @@
 - [Visão Geral](#visão-geral)
   - [O desafio](#the-challenge)
   - [Captura de tela](#captura-de-tela)
-  - [Links](#links)
 - [Meu processo](#meu-processo)
   - [Construído com](#construído-com)
   - [O que aprendi](#o-que-aprendi)
@@ -22,11 +21,8 @@ Os usuários devem ser capazes de:
 
 ### Captura de tela
 
-Projeto em andamento
+![image](https://user-images.githubusercontent.com/108889735/188692920-cbe0c29f-cf59-437c-91d7-80e787bc21d0.png)
 
-### Links
-
-- URL do site ao vivo: (</>)
 
 ## Meu processo
 
